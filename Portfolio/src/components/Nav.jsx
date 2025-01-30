@@ -9,12 +9,12 @@ const Nav = () => {
           <img
             src={demCodes}
             alt="logoDemCodes"
-            className="w-[30%] h-[30%] rounded-full p-3"
+            className="w-[30%] h-[30%] rounded-full p-3 text-center"
           />
         </a>
       </div>
       <div>
-        <ul className="flex flex-col  justify-center items-center lg:flex-row space-x-4 lg:mr-5">
+        <ul className=" max-lg:hidden flex flex-col  justify-center items-center lg:flex-row space-x-4 lg:mr-5">
           {links.map((link, index) => (
             <li key={index} className="text-white  max-sm:text-black">
               <Link

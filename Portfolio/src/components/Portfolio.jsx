@@ -21,7 +21,7 @@ const Portfolio = () => {
           <img
             src={chat}
             alt="chat_appli"
-            className="rounded-xl w-full h-auto pobject-cover"
+            className="rounded-xl  pobject-cover"
           />
           <p className="text-center m-2">
             <span className=" font-extrabold text-[#004aad] text-xl">

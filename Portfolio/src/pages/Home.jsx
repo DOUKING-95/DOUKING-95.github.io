@@ -12,7 +12,7 @@ import Skills from "../components/Skills";
 const Home = () => {
   return (
     <main>
-      <header className="sticky top-0 z-50 ">
+      <header className="lg:sticky lg:top-0 lg:z-50 ">
         <Nav></Nav>
       </header>
       <section className="m-3 lg:m-5">
