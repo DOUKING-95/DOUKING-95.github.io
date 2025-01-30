@@ -26,7 +26,7 @@ const Portfolio = () => {
           <p className="text-center m-2">
             <span className=" font-extrabold text-[#004aad] text-xl">
               Secure chat
-            </span>{" "}
+            </span>
             with python
           </p>
         </div>
