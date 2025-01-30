@@ -40,7 +40,7 @@ const Hero = () => {
           <span className=" font-extrabold text-[#004aad] text-4xl">Idées</span>{" "}
           en{" "}
           <span className=" font-extrabold text-[#004aad] text-4xl">
-            Soltuions Numériques
+            Solutions Numériques
           </span>{" "}
         </p>
         <Link to="contact" smooth={true} duration={500} spy={true}>
