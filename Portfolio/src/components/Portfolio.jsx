@@ -18,7 +18,11 @@ const Portfolio = () => {
       </div>
       <div className="lg:grid lg:grid-cols-2 flex flex-col m-2 lg:m-5 lg:space-x-1 gap-10">
         <div>
-          <img src={chat} alt="chat_appli" className="rounded-xl h-full" />
+          <img
+            src={chat}
+            alt="chat_appli"
+            className="rounded-xl h-full object-cover"
+          />
           <p className="text-center m-2">
             <span className=" font-extrabold text-[#004aad] text-xl">
               Secure chat

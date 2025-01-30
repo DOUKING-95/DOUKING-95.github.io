@@ -3,7 +3,7 @@ import demCodes from "../assets/demCodes.png";
 import { links } from "../constants/constants";
 const Nav = () => {
   return (
-    <nav className="relative max-sm:sticky max-sm:top-0 max-sm:bg-white flex flex-col justify-center items-center  p-1 md:mx-3 lg:p-4 lg:flex-row lg:justify-between ">
+    <nav className="  max-sm:bg-white flex flex-col justify-center items-center  p-1 md:mx-3 lg:p-4 lg:flex-row lg:justify-between ">
       <div>
         <a href="#">
           <img
