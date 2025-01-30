@@ -3,7 +3,7 @@ import demCodes from "../assets/demCodes.png";
 import { links } from "../constants/constants";
 const Nav = () => {
   return (
-    <nav className=" flex flex-col justify-center items-center  p-1 md:mx-3 lg:p-4 lg:flex-row lg:justify-between ">
+    <nav className=" flex  justify-center items-center  p-1 md:mx-3 lg:p-4 flex-row lg:justify-between ">
       <div>
         <a href="#">
           <img
@@ -13,8 +13,8 @@ const Nav = () => {
           />
         </a>
       </div>
-      <div>
-        <ul className=" max-lg:hidden flex flex-col  justify-center items-center lg:flex-row space-x-4 lg:mr-5">
+      <div className=" max-lg:hidden ">
+        <ul className="  flex flex-col  justify-center items-center lg:flex-row space-x-4 lg:mr-5">
           {links.map((link, index) => (
             <li key={index} className="text-white  max-sm:text-black">
               <Link
