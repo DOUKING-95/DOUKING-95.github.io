@@ -10,8 +10,8 @@ const Hero = () => {
       className="flex flex-col justify-center items-center mx-2 p-1 md:mx-3 lg:p-4 lg:flex-row lg:justify-between  "
     >
       <div className="lg:w-1/2">
-        <h1 className="text-lime-500 text-5xl font-extrabold">
-          <span className="text-5xl text-white font-extrabold">
+        <h1 className="max-sm:text-3xl text-4xl text-lime-500 lg:text-5xl font-extrabold">
+          <span className=" max-sm:text-3xl text-4xl lg:text-5xl text-white font-extrabold">
             I am &nbsp;
           </span>
           <span style={{ color: "lime", fontWeight: "bold" }}>
@@ -32,7 +32,7 @@ const Hero = () => {
             />
           </span>
         </h1>
-        <p className="text-2xl font-bold">Developper | UX &gt; UI Designer</p>{" "}
+        <p className="  text-2xl font-bold">Developper | UX &gt; UI Designer</p>{" "}
         <br />
         <br />
         <p className="w-full text-3xl font-light">
