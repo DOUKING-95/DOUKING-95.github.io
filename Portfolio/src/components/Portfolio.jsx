@@ -51,7 +51,7 @@ const Portfolio = () => {
             autoPlay
             muted
             playsInline
-            className="rounded-xl"
+            className="rounded-xl w-96 h-70"
           ></video>
           <p className="text-center m-2">
             <span className=" font-extrabold text-[#004aad] text-xl">
@@ -67,7 +67,7 @@ const Portfolio = () => {
             autoPlay
             muted
             playsInline
-            className="rounded-xl w-70 h-90"
+            className="rounded-xl w-96 h-70"
           ></video>
           <p className="text-center m-2">
             <span className=" font-extrabold text-[#004aad] text-xl">
