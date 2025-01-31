@@ -1,7 +1,4 @@
 import chat from "../assets/Appli.png";
-import eC from "../assets/eC.mp4";
-import shop from "../assets/shopDemCodes.mp4";
-import todo from "../assets/todoApp.mp4";
 import { portfolio } from "../constants/constants";
 
 const Portfolio = () => {
@@ -32,7 +29,14 @@ const Portfolio = () => {
           </p>
         </div>
         <div>
-          <video src={eC} loop autoPlay muted className="rounded-xl"></video>
+          <video
+            src="/assets/eC.mp4"
+            loop
+            autoPlay
+            muted
+            playsInline
+            className="rounded-xl"
+          ></video>
           <p className="text-center m-2">
             <span className=" font-extrabold text-[#004aad] text-xl">
               eCommerce
@@ -41,7 +45,14 @@ const Portfolio = () => {
           </p>
         </div>
         <div>
-          <video src={todo} loop autoPlay muted className="rounded-xl"></video>
+          <video
+            src="/assets/todoApp.mp4"
+            loop
+            autoPlay
+            muted
+            playsInline
+            className="rounded-xl"
+          ></video>
           <p className="text-center m-2">
             <span className=" font-extrabold text-[#004aad] text-xl">
               Todo App
@@ -51,10 +62,11 @@ const Portfolio = () => {
         </div>
         <div>
           <video
-            src={shop}
+            src="/assets/shopDemCodes.mp4"
             loop
             autoPlay
             muted
+            playsInline
             className="rounded-xl w-70 h-90"
           ></video>
           <p className="text-center m-2">
